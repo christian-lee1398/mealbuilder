@@ -1,0 +1,19 @@
+.gencard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 1em;
+    width: 15em;
+    justify-content: center;
+}
+.gencard button {
+    padding: 0.5em;
+    font-size: medium;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #a5a58d;
+    border: 1px solid transparent;
+}
