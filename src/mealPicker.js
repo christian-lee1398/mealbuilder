@@ -40,6 +40,9 @@ class RandomMeal extends Component {
             'Feta',
             'Pine Nuts',
             'Olive Oil',
+            'Coconut Oil',
+            'Avocado Oil',
+            'Ghee/Clarified Butter'
         ]
     }
     constructor(props) {
