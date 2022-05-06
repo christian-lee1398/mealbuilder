@@ -5,15 +5,23 @@
     border: solid black 2px;
     border-radius: 5px;
     padding: 1em;
-    width: 15em;
+    margin-top: 1em;
     justify-content: center;
+    width: 350px;
 }
 .gencard button {
+    color: white;
     padding: 0.5em;
     font-size: medium;
     font-weight: 800;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #a5a58d;
+    background-color: #283618;
     border: 1px solid transparent;
+    transition: 0.15s;
+}
+
+.gencard button:hover{
+    background-color: #a5a58d;
+    color: black;
 }
