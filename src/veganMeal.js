@@ -68,7 +68,7 @@ class RandomVeganMeal extends Component {
     render() {
         return (
             <div className="gencard">
-                <h1>Vegan Meal Generator</h1>
+                <h1>Healthy Meal Generator (Vegan)</h1>
                 <h3><Ingredients face={this.state.ingredient1} /></h3>
                 <h3><Ingredients face={this.state.ingredient2} /></h3>
                 <h3><Ingredients face={this.state.ingredient3} /></h3>
