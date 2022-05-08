@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// import axios from 'axios';
 import Ingredients from './ingredients'
 import './mealPicker.css'
 
@@ -72,6 +73,19 @@ class RandomMeal extends Component {
         })
     }
     render() {
+        // const res = axios.get('https://api.edamam.com/api/food-database/v2/parser?app_id=65ee46b1&app_key=58d31b7dc91899e5f090af89a0537aca')
+        //     .then(function (response) {
+        //         // handle success
+        //         console.log(response);
+        //     })
+        //     .catch(function (error) {
+        //         // handle error
+        //         console.log(error);
+        //     })
+        //     .then(function () {
+        //         // always executed
+        //     });
+        // console.log(res)
         return (
             <div className="gencard">
                 <h1>Healthy Meal Generator</h1>
